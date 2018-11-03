@@ -1,0 +1,151 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.custom_ind li {
+	    width: 10px;
+	    height: 10px;
+	    border-radius: 50%;
+	}
+
+.slider h1{
+	font-size: 15px;
+	margin-bottom: 25px;
+	
+}
+.slider p{
+	font-size: 10px;
+	margin-bottom: 25px;
+
+}
+.slider button{
+    padding: 0px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 12px;
+    /*margin-bottom: 100px;*/
+}
+}
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+.custom_ind li {
+	    width: 12px;
+	    height: 12px;
+	    border-radius: 50%;
+	}
+
+.slider h1{
+	font-size: 17px;
+	margin-bottom: 27px;
+	
+}
+.slider p{
+	font-size: 12px;
+	margin-bottom: 27px;
+
+}
+.slider button{
+    padding: 0px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 13px;
+    /*margin-bottom: 100px;*/
+}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*.slider{
+	background-color: rgba(1,1,1,.7);
+	color: white;
+	padding: 70px;
+}
+.slider h1{
+	font-size: 30px;
+	margin-bottom: 40px;
+	
+}
+.slider p{
+	font-size: 18px;
+	margin-bottom: 40px;
+
+}
+.slider button{
+    padding: 0px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 15px;
+    /*margin-bottom: 100px;*/
+/*}
+.slider:hover button{
+	background-color: #7D0101;
+
+}
+.custom_ind ol{
+    bottom: 40px;
+}
+.custom_ind li {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}*/
+	
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*.slider p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.slider h1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.slider button {
+    padding: 0px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 20px;
+    margin-bottom: 75px;
+}
+.custom_ind li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}*/
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	   /*.slider p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.slider h1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.slider button {
+    padding: 0px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 20px;
+    margin-bottom: 75px;
+}
+.custom_ind li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}*/
+	
+}
